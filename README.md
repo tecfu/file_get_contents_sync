@@ -16,7 +16,7 @@ filename1:function(){},
 
 or the content of all files as a single string. 
 
-- Can be run as module on in CLI.
+- Can be run as a node module or in CLI.
 
 
 
