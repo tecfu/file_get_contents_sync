@@ -1,12 +1,13 @@
 {
   "name": "file_get_contents_sync",
   "description": "Nodejs module to get the contents of a directory or a file synchronously. Intended to be used in Gruntfile / sync-appropriate situations.",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "homepage": "https://github.com/tecfu/file_get_contents_sync",
   "author": {
     "name": "tecfu",
     "email": "help@tecfu.com"
   },
+  "main": "src/js/main.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/tecfu/file_get_contents_sync.git"
@@ -29,9 +30,6 @@
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-uglify": "~0.5.0",
-    "grunt-preprocess": "",
-    "source-map-support": "",
     "chai": "~1.9.1",
     "sinon": "~1.10.3",
     "mocha": "~1.21.4"
