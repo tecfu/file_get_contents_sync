@@ -1,0 +1,27 @@
+{
+  "name": "file_get_contents_sync",
+  "version": "0.1.0",
+  "author": "tecfu.com <help@tecfu.com> (http://github.com/tecfu)",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-preprocess": "",
+    "grunt-env": "",
+    "source-map-support": "",
+    "chai": "~1.9.1",
+    "sinon": "~1.10.3",
+    "mocha": "~1.21.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecfu/file_get_contents_sync.git"
+  },
+  "bugs": "https://github.com/tecfu/file_get_contents_sync/issues",
+  "engines": {
+    "node": ">=0.10.25"
+  }
+}
