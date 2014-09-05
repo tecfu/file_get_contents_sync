@@ -2,7 +2,17 @@ file_get_contents_sync
 ======================
 
 Nodejs module to get the contents of a directory or a file synchronously. 
-Returns either an object keyed {filename:result,filename:result} or a single string. 
+Returns either a javascript object keyed 
+
+```
+{
+filename1:"result1",
+filename1:function(){},
+...
+} 
+```
+
+or a single string. 
 
 Can be run as module on in CLI.
 
