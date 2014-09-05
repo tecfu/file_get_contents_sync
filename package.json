@@ -1,28 +1,46 @@
 {
   "name": "file_get_contents_sync",
-  "description" : "Nodejs module to get the contents of a directory or a file synchronously. Intended to be used in Gruntfile / infrequent situations.",
-  "version": "0.1.4",
-  "author": "tecfu.com <help@tecfu.com> (http://github.com/tecfu)",
-  "dependencies": {
-
+  "description": "Nodejs module to get the contents of a directory or a file synchronously. Intended to be used in Gruntfile / sync-appropriate situations.",
+  "version": "0.1.5",
+  "homepage": "https://github.com/tecfu/file_get_contents_sync",
+  "author": {
+    "name": "tecfu",
+    "email": "help@tecfu.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tecfu/file_get_contents_sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tecfu/file_get_contents_sync/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/tecfu/file_get_contents_sync/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "scripts": {
+    "test": "grunt test"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-uglify": "~0.5.0",
     "grunt-preprocess": "",
-    "grunt-env": "",
     "source-map-support": "",
     "chai": "~1.9.1",
     "sinon": "~1.10.3",
     "mocha": "~1.21.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tecfu/file_get_contents_sync.git"
+  "peerDependencies": {
+    "grunt": "~0.4.5"
   },
-  "bugs": "https://github.com/tecfu/file_get_contents_sync/issues",
-  "engines": {
-    "node": ">=0.10.25"
-  }
+  "keywords": [
+    "gruntplugin"
+    ,"file get contents"
+  ]
 }
