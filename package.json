@@ -1,6 +1,6 @@
 {
   "name": "file_get_contents_sync",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "tecfu.com <help@tecfu.com> (http://github.com/tecfu)",
   "dependencies": {
 
