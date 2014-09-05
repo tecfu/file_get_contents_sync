@@ -1,7 +1,8 @@
 file_get_contents_sync
 ======================
 
-Nodejs module to get the contents of a directory or a file synchronously. 
+Nodejs module to get the contents of a directory or a file synchronously.Intended to be used in Gruntfile situations.
+ 
 Returns either a javascript object keyed: 
 
 ```
@@ -16,7 +17,7 @@ or the content of all files as a single string.
 
 - Can be run as module on in CLI.
 
-- Intended to be used in Gruntfile situations.
+
 
 
 # Usage:
@@ -26,7 +27,7 @@ or the content of all files as a single string.
 - [Default] Return all the files in a directory as an array of nodejs modules:
 
 ```
-var fgc = require("file_get_contents_sync")('/path/to/js');
+var fgc = require("file_get_contents_sync")("/path/to/js");
 ```
 
 - Return all the files in a directory as a single string:
