@@ -1,7 +1,7 @@
 {
   "name": "file_get_contents_sync",
   "description": "Nodejs module to get the contents of a directory or a file synchronously. Intended to be used in Gruntfile / sync-appropriate situations.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/tecfu/file_get_contents_sync",
   "author": {
     "name": "tecfu",
