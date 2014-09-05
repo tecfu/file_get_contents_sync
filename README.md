@@ -1,7 +1,8 @@
 file_get_contents_sync
 ======================
 
-Nodejs module to get the contents of a directory or a file synchronously.Intended to be used in Gruntfile / infrequent situations.
+Nodejs module to get the contents of a directory or a file synchronously.
+Intended to be used in Gruntfile / infrequent situations.
  
 Returns either a javascript object keyed: 
 
