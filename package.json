@@ -38,7 +38,7 @@
     "grunt": "~0.4.5"
   },
   "keywords": [
-    "gruntplugin"
-    ,"file get contents"
+    "gruntplugin",
+    "file get contents"
   ]
 }
